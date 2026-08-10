@@ -1,4 +1,4 @@
- # 📄 Resume Screening System
+# 📄 Resume Screening System
 
 An NLP and Machine Learning based web application that analyzes resume text and predicts the most relevant job category.
 
@@ -23,7 +23,6 @@ The application provides a simple Streamlit interface where users can upload a r
 - TF-IDF
 - Scikit-learn
 - PDFPlumber
-- NLTK
 - Streamlit
 
 ## ⚙️ Workflow
@@ -40,28 +39,31 @@ TF-IDF Feature Extraction
 Trained ML Model
       ↓
 Job Category Prediction
+```
 
-🎯 Job Categories
+## 🎯 Job Categories
 
 The model classifies resumes into 25 predefined job categories, including:
 
-Data Science
-Python Developer
-Java Developer
-Mechanical Engineer
-Civil Engineer
-Electrical Engineering
-Business Analyst
-HR
-DevOps Engineer
-Testing
-Web Designing
-Database
-Network Security Engineer
-SAP Developer
-And more
+- Data Science
+- Python Developer
+- Java Developer
+- Mechanical Engineer
+- Civil Engineer
+- Electrical Engineering
+- Business Analyst
+- HR
+- DevOps Engineer
+- Testing
+- Web Designing
+- Database
+- Network Security Engineer
+- SAP Developer
+- And more
 
-📁 Project Structure
+## 📁 Project Structure
+
+```text
 Resume_Screening
 │
 ├── app.py
@@ -70,6 +72,7 @@ Resume_Screening
 ├── requirements.txt
 ├── .gitattributes
 └── README.md
+```
 
 ## ▶️ Run Locally
 
@@ -87,22 +90,8 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-[🔗 Open Resume Screening App](## ▶️ Run Locally
+[🔗 Open Resume Screening App](https://resumescreeningnlp-w4u25vp2hsd8vg92u4kspr.streamlit.app/)
 
-Install the required dependencies:
+## 👩‍💻 Author
 
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-streamlit run app.py
-```
-
-## 🌐 Live Demo
-
-[🔗 Open Resume Screening App](https://resumescreeningnlp-w4u25vp2hsd8vg92u4kspr.streamlit.app/))
-
- 
+**Ritika Sharma**
